@@ -1,0 +1,27 @@
+# Next.js
+/.next/
+/out/
+
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables
+.env*.local
+.env
+.env.production
+.env.development
+
+# Raw data & business files (보안 및 영업자료 예외 처리)
+받은자료/
+*.csv
+*카톡*.txt
+*보고*.txt
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
